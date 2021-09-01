@@ -1,0 +1,31 @@
+{
+  "name": "VM-visu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoicLissens/VM-visu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoicLissens/VM-visu/issues"
+  },
+  "homepage": "https://github.com/LoicLissens/VM-visu#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.1.2"
+  }
+}
